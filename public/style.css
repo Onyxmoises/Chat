@@ -1,0 +1,41 @@
+* {
+    text-align: center;
+}
+
+html {
+    height: 100%;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100%;
+}
+
+.header1{
+    background-color: #024a86;
+    color: white;
+}
+
+.contenedorChat {
+    font-size: x-large;
+    background-color: bisque;
+}
+
+.controls {
+    background-color: #024a86;
+    margin-top: auto;
+    padding: 10px;
+}
+
+.mensaje {
+    height: 60px;
+    width: 80%;
+    border-radius: 10px;
+}
+
+.botonEnvio {
+    height: 60px;
+    background-color: chartreuse;
+    border-radius: 10px;
+}
